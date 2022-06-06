@@ -1,0 +1,306 @@
+{
+  "defaults": {
+    "gravity": -50.7,
+    "friction": 0.4,
+    "density": 0.0,
+    "restitution": 0.1,
+    "volume": 0.8
+  },
+  "objects": [
+    {
+      "name": "ladder",
+      "type": "ladder",
+      "position": [
+        10.0,
+        7.0
+      ],
+      "dimension": [
+        2.62,
+        12.35
+      ],
+      "textureID": "ladder",
+      "matchID": -1
+    },
+    {
+      "name": "obj1",
+      "type": "artifact",
+      "position": [
+        25.0,
+        12.0
+      ],
+      "dimension": [
+        1.04,
+        1.3325
+      ],
+      "textureID": "vase",
+      "matchID": 1,
+      "outlineTextureID": "vase_outline",
+      "isBreakable": 1
+    },
+    {
+      "name": "shelf1",
+      "type": "shelf",
+      "position": [
+        25.0,
+        10.0
+      ],
+      "dimension": [
+        2.015,
+        0.6175
+      ],
+      "textureID": "shelf",
+      "matchID": 1
+    },
+    {
+      "name": "shelf2",
+      "type": "shelf",
+      "position": [
+        26.0,
+        8.0
+      ],
+      "dimension": [
+        2.015,
+        0.6175
+      ],
+      "textureID": "shelf",
+      "matchID": -1
+    },
+    {
+      "name": "shelf3",
+      "type": "shelf",
+      "position": [
+        27.0,
+        6.0
+      ],
+      "dimension": [
+        2.015,
+        0.6175
+      ],
+      "textureID": "shelf",
+      "matchID": -1
+    },
+    {
+      "name": "shelf4",
+      "type": "shelf",
+      "position": [
+        28.0,
+        4.0
+      ],
+      "dimension": [
+        2.015,
+        0.6175
+      ],
+      "textureID": "shelf",
+      "matchID": -1
+    },
+    {
+      "name": "shelf5",
+      "type": "shelf",
+      "position": [
+        28.0,
+        2.0
+      ],
+      "dimension": [
+        2.015,
+        0.6175
+      ],
+      "textureID": "shelf",
+      "matchID": -1
+    },
+    {
+      "name": "obj2",
+      "type": "artifact",
+      "position": [
+        5.0,
+        10.0
+      ],
+      "dimension": [
+        1.3,
+        1.3
+      ],
+      "textureID": "crate02",
+      "matchID": 2,
+      "outlineTextureID": "painting_outline_1",
+      "isBreakable": 0
+    },
+    {
+      "name": "shelf6",
+      "type": "shelf",
+      "position": [
+        5.0,
+        8.0
+      ],
+      "dimension": [
+        2.015,
+        0.6175
+      ],
+      "textureID": "shelf",
+      "matchID": 2
+    },
+    {
+      "name": "obj3",
+      "type": "artifact",
+      "position": [
+        10.0,
+        15.0
+      ],
+      "dimension": [
+        1.3,
+        2.34
+      ],
+      "textureID": "bust",
+      "matchID": 3,
+      "outlineTextureID": "bust_outline_small",
+      "isBreakable": 0
+    },
+    {
+      "name": "shelf6",
+      "type": "shelf",
+      "position": [
+        10.0,
+        13.0
+      ],
+      "dimension": [
+        2.015,
+        0.6175
+      ],
+      "textureID": "shelf",
+      "matchID": 3
+    },
+    {
+      "name": "obj4",
+      "type": "artifact",
+      "position": [
+        20.0,
+        15.0
+      ],
+      "dimension": [
+        1.3,
+        1.3
+      ],
+      "textureID": "frame2",
+      "matchID": 4,
+      "outlineTextureID": "painting_outline_2",
+      "isBreakable": 0
+    },
+    {
+      "name": "shelf4",
+      "type": "shelf",
+      "position": [
+        20.0,
+        13.0
+      ],
+      "dimension": [
+        2.015,
+        0.6175
+      ],
+      "textureID": "shelf",
+      "matchID": 4
+    },
+    {
+      "name": "plant1",
+      "type": "plant",
+      "position": [
+        15.0,
+        18
+      ],
+      "dimension": [
+        0.2925,
+        1.7875
+      ],
+      "textureID": [
+        "branch",
+        "junction",
+        "bud",
+        "leaves"
+      ],
+      "matchID": -1,
+      "orientation": 1
+    },
+    {
+      "name": "dude",
+      "type": "player",
+      "textureID": "dude",
+      "jumpTex": "jump",
+      "holdTex": "holdstatic",
+      "position": [
+        25,
+        14.0
+      ],
+      "dimension": [
+        1.2,
+        1.7
+      ],
+      "shrink": [
+        0.4,
+        0.2
+      ],
+      "force": 250.0,
+      "damping": 240.0,
+      "density": 4.4,
+      "friction": 0.15,
+      "maxspeed": 10.0,
+      "jump_force": 2000.5,
+      "jump_cool": 0,
+      "dash_force": 250,
+      "dash_cool": 50.0,
+      "speed_cool": 2,
+      "air_control": 1.5,
+      "shot_cool": 40,
+      "cutter": {
+        "range": 1,
+        "shrink": 1,
+        "cutter_anchor_scale": [
+          -0.4,
+          0
+        ],
+        "body_anchor_scale": [
+          -0.3,
+          -0.1
+        ]
+      }
+    }
+  ],
+  "lights": [
+    {
+      "light_type": 0,
+      "num_rays": 50,
+      "intensity": 0.65,
+      "distance": 2000,
+      "pos": [
+        512,
+        530
+      ],
+      "rgb": [
+        1.0,
+        1.0,
+        0.87
+      ]
+    },
+    {
+      "light_type": 0,
+      "num_rays": 50,
+      "intensity": 0.3,
+      "distance": 2000,
+      "pos": [
+        512,
+        530
+      ],
+      "rgb": [
+        0.99,
+        0.84,
+        0.69
+      ]
+    }
+  ],
+  "time-limit": 90,
+  "background_layers" : [ {
+    "constant" : 0.2,
+    "textureID" : "bg_ground_only"
+  }, {
+    "constant" : 0.5,
+    "textureID" : "background"
+  } ],
+  "music": "template_level_music",
+  "font": "retro"
+}

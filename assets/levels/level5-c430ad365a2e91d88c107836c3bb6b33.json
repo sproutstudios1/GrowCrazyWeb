@@ -1,0 +1,199 @@
+{
+  "tileheight" : 32,
+  "time-limit" : 60,
+  "difficulty" : "medium",
+  "music" : "template_level_music",
+  "defaults" : {
+    "volume" : 0.8,
+    "density" : 0.0,
+    "restitution" : 0.1,
+    "gravity" : -50.7,
+    "friction" : 0.4
+  },
+  "objects" : [ {
+    "orientation" : 0,
+    "name" : "62",
+    "textureID" : "ladder",
+    "position" : [ -13.37, 6.923 ],
+    "type" : "ladder",
+    "dimension" : [ 1.875, 11.875 ],
+    "matchID" : -1
+  }, {
+    "orientation" : 0,
+    "name" : "1",
+    "textureID" : "shelf",
+    "position" : [ 18.563, 6.101 ],
+    "type" : "shelf",
+    "dimension" : [ 1.938, 0.594 ],
+    "matchID" : 4
+  }, {
+    "orientation" : 0,
+    "outlineTextureID" : "painting_outline_1",
+    "name" : "115",
+    "position" : [ 15.384, 4.29 ],
+    "textureID" : "crate02",
+    "type" : "artifact",
+    "dimension" : [ 1.25, 1.25 ],
+    "isBreakable" : 0,
+    "matchID" : 1
+  }, {
+    "orientation" : 0,
+    "name" : "119",
+    "textureID" : "shelf",
+    "position" : [ 15.05, 3.552 ],
+    "type" : "shelf",
+    "dimension" : [ 1.938, 0.594 ],
+    "matchID" : 1
+  }, {
+    "orientation" : 0,
+    "name" : "120",
+    "textureID" : "shelf",
+    "position" : [ 15.081, 8.604 ],
+    "type" : "shelf",
+    "dimension" : [ 1.938, 0.594 ],
+    "matchID" : 3
+  }, {
+    "orientation" : 0,
+    "name" : "123",
+    "textureID" : "shelf",
+    "position" : [ 14.971, 13.357 ],
+    "type" : "shelf",
+    "dimension" : [ 1.938, 0.594 ],
+    "matchID" : 2
+  }, {
+    "orientation" : 0,
+    "outlineTextureID" : "bust_outline_small",
+    "name" : "124",
+    "position" : [ 15.315, 13.989 ],
+    "textureID" : "bust",
+    "type" : "artifact",
+    "dimension" : [ 1.25, 2.25 ],
+    "isBreakable" : 0,
+    "matchID" : 2
+  }, {
+    "orientation" : 0,
+    "outlineTextureID" : "painting_outline_2",
+    "name" : "125",
+    "position" : [ 15.396, 9.266 ],
+    "textureID" : "frame2",
+    "type" : "artifact",
+    "dimension" : [ 1.25, 1.25 ],
+    "isBreakable" : 0,
+    "matchID" : 3
+  }, {
+    "orientation" : 0,
+    "name" : "130",
+    "textureID" : "shelf",
+    "position" : [ 18.513, 10.503 ],
+    "type" : "shelf",
+    "dimension" : [ 1.938, 0.594 ],
+    "matchID" : 4
+  }, {
+    "orientation" : 0,
+    "name" : "132",
+    "textureID" : "shelf",
+    "position" : [ 11.544, 10.444 ],
+    "type" : "shelf",
+    "dimension" : [ 1.938, 0.594 ],
+    "matchID" : 4
+  }, {
+    "orientation" : 0,
+    "name" : "136",
+    "textureID" : "shelf",
+    "position" : [ 11.686, 6.042 ],
+    "type" : "shelf",
+    "dimension" : [ 1.938, 0.594 ],
+    "matchID" : 4
+  }, {
+    "orientation" : 0,
+    "name" : "137",
+    "textureID" : [ "branch", "junction", "bud", "leaves" ],
+    "position" : [ 20.4, 6.5 ],
+    "type" : "plant",
+    "juice" : 12,
+    "dimension" : [ 0.281, 1.719 ],
+    "matchID" : -1,
+    "pot_type" : "shelf"
+  }, {
+    "orientation" : 0,
+    "name" : "135",
+    "textureID" : [ "branch", "junction", "bud", "leaves" ],
+    "position" : [ 6.5, 6.5 ],
+    "type" : "plant",
+    "juice" : 12,
+    "dimension" : [ 0.281, 1.719 ],
+    "matchID" : -1,
+    "pot_type" : "shelf"
+  }, {
+    "orientation" : 0,
+    "density" : 4.4,
+    "shrink" : [ 0.4, 0.2 ],
+    "dash_force" : 250.0,
+    "maxspeed" : 10.0,
+    "speed_cool" : 2.0,
+    "shot_cool" : 2.0,
+    "cutter" : {
+      "body_anchor_scale" : [ -0.3, -0.1 ],
+      "shrink" : 1,
+      "cutter_anchor_scale" : [ -0.4, 0 ],
+      "range" : 1
+    },
+    "textureID" : "dude",
+    "damping" : 240.0,
+    "type" : "player",
+    "jump_force" : 2000.5,
+    "dash_cool" : 50.0,
+    "friction" : 0.15,
+    "air_control" : 0.8,
+    "jump_cool" : 0.0,
+    "jumpTex" : "jump",
+    "name" : "58",
+    "holdTex" : "holdstatic",
+    "force" : 250.0,
+    "position" : [ 12.241, 0.926 ],
+    "dimension" : [ 1.2, 1.7 ],
+    "matchID" : -1
+  }, {
+    "orientation" : 0,
+    "name" : "139",
+    "textureID" : "shelf",
+    "position" : [ 1.17, 13.35 ],
+    "type" : "shelf",
+    "dimension" : [ 1.938, 0.594 ],
+    "matchID" : 4
+  }, {
+    "orientation" : 0,
+    "name" : "140",
+    "textureID" : "shelf",
+    "position" : [ 28.937, 13.404 ],
+    "type" : "shelf",
+    "dimension" : [ 1.938, 0.594 ],
+    "matchID" : 4
+  }, {
+    "orientation" : 0,
+    "name" : "142",
+    "textureID" : "shelf",
+    "position" : [ 7.785, 13.122 ],
+    "type" : "shelf",
+    "dimension" : [ 1.938, 0.594 ],
+    "matchID" : 4
+  }, {
+    "orientation" : 0,
+    "name" : "143",
+    "textureID" : "shelf",
+    "position" : [ 22.739, 13.156 ],
+    "type" : "shelf",
+    "dimension" : [ 1.938, 0.594 ],
+    "matchID" : 4
+  } ],
+  "background_layers" : [
+    {
+      "constant": 0,
+      "textureID": "bg_ground_only"
+    }, {
+      "constant" : 0.2,
+      "textureID" : "background"
+    } ],
+  "tilewidth" : 32,
+  "font" : "retro"
+}

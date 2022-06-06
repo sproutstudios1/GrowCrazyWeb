@@ -1,0 +1,179 @@
+{
+  "tileheight" : 32,
+  "difficulty" : "medium",
+  "time-limit" : 120,
+  "music" : "template_level_music",
+  "defaults" : {
+    "volume" : 0.8,
+    "density" : 0.0,
+    "restitution" : 0.1,
+    "gravity" : -50.7,
+    "friction" : 0.4
+  },
+  "isTutorial" : false,
+  "next_level" : "first",
+  "tutorialType" : "move",
+  "objects" : [  {
+    "orientation" : 0,
+    "name" : "225",
+    "textureID" : "shelf",
+    "position" : [ 10.83, 9.592 ],
+    "type" : "shelf",
+    "dimension" : [ 1.938, 0.594 ],
+    "matchID" : 4
+  }, {
+    "orientation" : 0,
+    "outlineTextureID" : "owl_outline",
+    "name" : "226",
+    "position" : [ 10.83, 10.647 ],
+    "textureID" : "cage",
+    "type" : "artifact:birdcage",
+    "dimension" : [ 1.25, 1.25 ],
+    "isBreakable" : 1,
+    "matchID" : 2
+  }, {
+    "orientation" : 0,
+    "name" : "227",
+    "textureID" : "shelf",
+    "position" : [ 21.351, 5.628 ],
+    "type" : "shelf",
+    "dimension" : [ 1.938, 0.594 ],
+    "matchID" : 4
+  }, {
+    "orientation" : 0,
+    "outlineTextureID" : "owl_outline",
+    "name" : "228",
+    "position" : [ 21.431, 6.763 ],
+    "textureID" : "cage",
+    "type" : "artifact:birdcage",
+    "dimension" : [ 1.25, 1.25 ],
+    "isBreakable" : 1,
+    "matchID" : 2
+  }, {
+    "orientation" : 0,
+    "name" : "229",
+    "textureID" : "shelf",
+    "position" : [ 26.099, 9.824 ],
+    "type" : "shelf",
+    "dimension" : [ 1.938, 0.594 ],
+    "matchID" : 4
+  }, {
+    "orientation" : 0,
+    "outlineTextureID" : "owl_outline",
+    "name" : "230",
+    "position" : [ 26.063, 10.846 ],
+    "textureID" : "cage",
+    "type" : "artifact:birdcage",
+    "dimension" : [ 1.25, 1.25 ],
+    "isBreakable" : 1,
+    "matchID" : 2
+  }, {
+    "orientation" : 0,
+    "name" : "231",
+    "textureID" : "shelf",
+    "position" : [ 21.138, 11.729 ],
+    "type" : "shelf",
+    "dimension" : [ 1.938, 0.594 ],
+    "matchID" : 4
+  }, {
+    "orientation" : 0,
+    "outlineTextureID" : "bust_outline_small",
+    "name" : "232",
+    "position" : [ 21.066, 13.183 ],
+    "textureID" : "bust",
+    "type" : "artifact",
+    "dimension" : [ 1.25, 2.25 ],
+    "isBreakable" : 0,
+    "matchID" : 2
+  }, {
+    "orientation" : 0,
+    "name" : "233",
+    "textureID" : "shelf",
+    "position" : [ 15.997, 14.691 ],
+    "type" : "shelf",
+    "dimension" : [ 1.938, 0.594 ],
+    "matchID" : 4
+  }, {
+    "orientation" : 0,
+    "outlineTextureID" : "bust_outline_small",
+    "name" : "234",
+    "position" : [ 15.958, 16.079 ],
+    "textureID" : "bust",
+    "type" : "artifact",
+    "dimension" : [ 1.25, 2.25 ],
+    "isBreakable" : 0,
+    "matchID" : 2
+  }, {
+    "orientation" : 0,
+    "name" : "220",
+    "textureID" : [ "branch", "junction", "bud", "leaves" ],
+    "position" : [ 10.703, 6.778 ],
+    "type" : "plant",
+    "juice" : 23,
+    "dimension" : [ 0.281, 1.719 ],
+    "matchID" : -1,
+    "pot_type" : "shelf"
+  }, {
+    "orientation" : 0,
+    "density" : 3.4,
+    "shrink" : [ 0.4, 0.2 ],
+    "dash_force" : 250.0,
+    "maxspeed" : 10.0,
+    "speed_cool" : 50.0,
+    "shot_cool" : 2.0,
+    "cutter" : {
+      "body_anchor_scale" : [ -0.3, -0.1 ],
+      "shrink" : 1,
+      "cutter_anchor_scale" : [ -0.4, 0 ],
+      "range" : 1
+    },
+    "textureID" : "dude",
+    "damping" : 240.0,
+    "type" : "player",
+    "jump_force" : 120.5,
+    "dash_cool" : 50.0,
+    "friction" : 0.15,
+    "air_control" : 0.8,
+    "jump_cool" : 0.0,
+    "jumpTex" : "jump",
+    "name" : "222",
+    "holdTex" : "holdstatic",
+    "force" : 250.0,
+    "position" : [ 19.167, 1.833 ],
+    "dimension" : [ 1.2, 1.7 ],
+    "matchID" : -1
+  }, {
+    "orientation" : 0,
+    "name" : "237",
+    "textureID" : "shelf",
+    "position" : [ 21.47, 2.805 ],
+    "type" : "shelf",
+    "dimension" : [ 1.938, 0.594 ],
+    "matchID" : 4
+  }, {
+    "orientation" : 0,
+    "name" : "238",
+    "textureID" : "shelf",
+    "position" : [ 16.025, 6.682 ],
+    "type" : "shelf",
+    "dimension" : [ 1.938, 0.594 ],
+    "matchID" : 4
+  }, {
+    "orientation" : 0,
+    "name" : "240",
+    "textureID" : "shelf",
+    "position" : [ 9.566, 13.585 ],
+    "type" : "shelf",
+    "dimension" : [ 1.938, 0.594 ],
+    "matchID" : 4
+  } ],
+  "background_layers" : [ {
+    "constant" : 0.2,
+    "textureID" : "bg_ground_only"
+  }, {
+    "constant" : 0.2,
+    "textureID" : "background_closet"
+  } ],
+  "tilewidth" : 32,
+  "font" : "retro"
+}

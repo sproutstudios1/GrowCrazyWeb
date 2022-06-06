@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objecttypes>
+ <objecttype name="GameObject" color="#aa0000">
+  <property name="isBreakable" type="int" default="0"/>
+  <property name="matchID" type="int" default="2"/>
+  <property name="outlineTextureID" type="string" default="bust_outline_small"/>
+  <property name="textureID" type="string" default="bust"/>
+  <property name="type" type="string" default="artifact"/>
+ </objecttype>
+</objecttypes>

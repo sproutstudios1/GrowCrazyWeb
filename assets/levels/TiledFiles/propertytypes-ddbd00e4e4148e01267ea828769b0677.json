@@ -1,0 +1,33 @@
+[
+    {
+        "color": "#ffaa0000",
+        "name": "GameObject",
+        "properties": [
+            {
+                "name": "isBreakable",
+                "type": "int",
+                "value": 0
+            },
+            {
+                "name": "matchID",
+                "type": "int",
+                "value": 2
+            },
+            {
+                "name": "outlineTextureID",
+                "type": "string",
+                "value": "bust_outline_small"
+            },
+            {
+                "name": "textureID",
+                "type": "string",
+                "value": "bust"
+            },
+            {
+                "name": "type",
+                "type": "string",
+                "value": "artifact"
+            }
+        ]
+    }
+]

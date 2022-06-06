@@ -1,0 +1,18 @@
+{
+  "textures": {
+    "levelselect": "textures/levelselect.png",
+    "lsexit": "textures/lsexit.png",
+    "lsexithighlight": "textures/lsexithighlight.png",
+    "lsoptions": "textures/lsoptions.png",
+    "lsoptionshighlight": "textures/lsoptionshighlight.png",
+    "lsmap": "textures/lsmap.png",
+    "lonebuttonhighlight": "textures/lslevelhighligh.png",
+    "plaque": "textures/plaque.png"
+  },
+  "fonts": {
+    "font": {
+      "file": "fonts/AutourOne-Regular.ttf",
+      "size": 64
+    }
+  }
+}

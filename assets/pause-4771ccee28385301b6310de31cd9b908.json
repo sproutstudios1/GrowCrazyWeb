@@ -1,0 +1,17 @@
+{
+  "textures": {
+    "pause": "textures/pausebg.png",
+    "resume": "textures/resume.png",
+    "resumehighlight": "textures/resumehighlight.png",
+    "returntols": "textures/returntols.png",
+    "returntolshighlight": "textures/returntolshighlight.png",
+    "poptions": "textures/poptions.png",
+    "poptionshighlight": "textures/poptionshighlight.png"
+  },
+  "fonts": {
+    "font": {
+      "file": "fonts/AutourOne-Regular.ttf",
+      "size": 64
+    }
+  }
+}

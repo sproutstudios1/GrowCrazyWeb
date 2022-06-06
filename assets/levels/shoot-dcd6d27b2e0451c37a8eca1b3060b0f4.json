@@ -1,0 +1,87 @@
+{
+  "tileheight" : 32,
+  "difficulty" : "noplant",
+  "time-limit" : 45,
+  "music" : "template_level_music",
+  "defaults" : {
+    "volume" : 0.8,
+    "density" : 0.0,
+    "restitution" : 0.1,
+    "gravity" : -50.7,
+    "friction" : 0.4
+  },
+  "isTutorial" : true,
+  "next_level" : "first",
+  "tutorialType" : "owl",
+  "objects" : [ {
+    "orientation" : 0,
+    "density" : 3.4,
+    "shrink" : [ 0.4, 0.2 ],
+    "dash_force" : 250.0,
+    "maxspeed" : 10.0,
+    "speed_cool" : 50.0,
+    "shot_cool" : 2.0,
+    "cutter" : {
+      "body_anchor_scale" : [ -0.3, -0.1 ],
+      "shrink" : 1,
+      "cutter_anchor_scale" : [ -0.4, 0 ],
+      "range" : 1
+    },
+    "textureID" : "dude",
+    "damping" : 240.0,
+    "type" : "player",
+    "jump_force" : 120.5,
+    "dash_cool" : 50.0,
+    "friction" : 0.15,
+    "air_control" : 0.8,
+    "jump_cool" : 0.0,
+    "jumpTex" : "jump",
+    "name" : "222",
+    "holdTex" : "holdstatic",
+    "force" : 250.0,
+    "position" : [ 6.822, 2.088 ],
+    "dimension" : [ 1.2, 1.7 ],
+    "matchID" : -1
+  }, {
+    "orientation" : 0,
+    "name" : "227",
+    "textureID" : [ "branch", "junction", "bud", "leaves" ],
+    "position" : [ 16.289, 21.569 ],
+    "type" : "plant",
+    "juice" : 23,
+    "dimension" : [ 0.281, 1.719 ],
+    "matchID" : -1,
+    "pot_type" : "ground"
+  }, {
+    "orientation" : 0,
+    "name" : "229",
+    "textureID" : "shelf",
+    "position" : [ 11.499, 2.618 ],
+    "type" : "shelf",
+    "dimension" : [ 2.0, 0.562 ],
+    "matchID" : 4
+  } , {
+    "orientation" : 0,
+    "name" : "169",
+    "textureID" : "shelf",
+    "position" : [ 21.658, 2.332 ],
+    "type" : "shelf",
+    "dimension" : [ 1.938, 0.594 ],
+    "matchID" : 9
+  }],
+  "background_layers" : [ {
+    "constant" : 0.2,
+    "textureID" : "bg_ground_only"
+  }, {
+    "constant" : 0.2,
+    "textureID" : "background_lounge"
+  }, {
+    "constant" : 0.2,
+    "textureID" : "tutorial_owl"
+  }, {
+    "constant" : 0.2,
+    "textureID" : "tutorial_owl_text"
+  } ],
+  "tilewidth" : 32,
+  "font" : "retro"
+}

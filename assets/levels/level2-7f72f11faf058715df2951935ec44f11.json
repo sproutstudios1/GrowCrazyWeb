@@ -1,0 +1,172 @@
+{
+  "defaults" : {
+    "gravity" : -50.7,
+    "friction": 0.4,
+    "density" : 0.0,
+    "restitution": 0.1,
+    "volume": 0.8
+  },
+  "objects" : [{
+    "name" : "ladder",
+    "type" : "ladder",
+    "position": [10.0, 10.0],
+    "textureID" : "ladder",
+    "category_bits" : 32,
+    "mask_bits" : [1],
+    "groupIdx" : [-1]
+  },{
+    "name" : "obj1",
+    "type" : "artifact",
+    "position" : [25.0, 10.0],
+    "textureID" : "crate01",
+    "category_bits" : 2,
+    "mask_bits" : [1, 2],
+    "groupIdx" : [-1]
+  },
+    {
+      "name" : "shelf1",
+      "type" : "shelf",
+      "position" : [25.0, 8.0],
+      "textureID" : "shelf",
+      "category_bits" : 2,
+      "mask_bits" : [1, 2],
+      "groupIdx" : [5]
+    },
+    {
+      "name" : "obj2",
+      "type" : "artifact",
+      "position" : [5.0, 10.0],
+      "textureID" : "crate02",
+      "category_bits" : 2,
+      "mask_bits" : [1, 2],
+      "groupIdx" : [-1]
+    },
+    {
+      "name" : "shelf2",
+      "type" : "shelf",
+      "position" : [5.0, 8.0],
+      "textureID" : "shelf",
+      "category_bits" : 2,
+      "mask_bits" : [1, 2],
+      "groupIdx" : [5]
+    },
+    {
+      "name" : "obj3",
+      "type" : "artifact",
+      "position" : [15.0, 10.0],
+      "textureID" : "bust",
+      "category_bits" : 2,
+      "mask_bits" : [1, 2],
+      "groupIdx" : [-1]
+    },
+    {
+      "name" : "shelf3",
+      "type" : "shelf",
+      "position" : [15.0, 8.0],
+      "textureID" : "shelf",
+      "category_bits" : 2,
+      "mask_bits" : [1, 2],
+      "groupIdx" : [5]
+    },
+    {
+      "name" : "obj4",
+      "type" : "artifact",
+      "position" : [20.0, 15.0],
+      "textureID" : "frame2",
+      "category_bits" : 2,
+      "mask_bits" : [1, 2],
+      "groupIdx" : [-1]
+    },
+    {
+      "name" : "shelf4",
+      "type" : "shelf",
+      "position" : [20.0, 13.0],
+      "textureID" : "shelf",
+      "category_bits" : 2,
+      "mask_bits" : [1, 2],
+      "groupIdx" : [5]
+    },
+    {
+      "name" : "plant1",
+      "type" : "plant",
+      "position" : [4.0, 1.0],
+      "textureID" : ["branch", "bud", "junction"],
+      "category_bits" : 8,
+      "mask_bits" : [1, 2],
+      "groupIdx" : [-1],
+      "orientation" : 0
+    },
+    {
+      "name" : "plant2",
+      "type" : "plant",
+      "position" : [28.0, 18.0],
+      "textureID" : ["branch", "bud", "junction"],
+      "category_bits" : 2,
+      "mask_bits" : [1, 2],
+      "groupIdx" : [-1],
+      "orientation" : 1
+    },
+    {
+      "name" : "dude",
+      "type" : "player",
+      "textureID" : "dude",
+      "jumpTex" : "jump",
+      "holdTex" : "holdstatic",
+      "category_bits" : 4,
+      "mask_bits" : [1, 2],
+      "groupIdx" : [8],
+      "pos": [2.5, 1.5],
+      "shrink": [0.15, 0.23],
+      "force": 250.0,
+      "damping": 240.0,
+      "density": 3.4,
+      "friction": 0.15,
+      "maxspeed": 10.0,
+      "jump_force": 120.5,
+      "jump_cool": 0,
+      "dash_force": 250,
+      "dash_cool": 50,
+      "speed_cool": 2,
+      "air_control": 0.8,
+      "shot_cool": 40,
+      "sensor": {
+        "shrink" : 0.6,
+        "height" : 0.2
+      },
+      "ladder_sensor": {
+        "shrink" : 0.2,
+        "height" : 0.5
+      },
+      "cutter": {
+        "range": 1,
+        "shrink": 1,
+        "cutter_anchor_scale": [-0.4,0],
+        "body_anchor_scale": [-0.3,-0.1],
+        "mask_bits": [],
+        "groupIdx" : [1,2,3,4,5,7,-1],
+        "category_bits": 8
+      }
+
+    }
+  ],
+  "walls": 	[
+    [ 16.0, 18.0, 16.0, 17.0,  1.0, 17.0,  1.0,  1.0, 16.0,  1.0, 16.0,  0.0,  0.0,  0.0,  0.0, 18.0],
+    [ 32.0, 18.0, 32.0,  0.0, 16.0,  0.0, 16.0,  1.0, 31.0,  1.0, 31.0, 17.0, 16.0, 17.0, 16.0, 18.0]
+  ],
+  "lights": [
+    {"light_type": 0, "num_rays":  50, "intensity":  0.65, "distance":  2000, "pos":  [512, 530], "rgb":  [1.0, 1.0, 0.87]}, {
+      "light_type": 0, "num_rays":  50, "intensity":  0.3, "distance":  2000, "pos":  [512, 530], "rgb":  [0.99, 0.84, 0.69]
+    }
+  ],
+  "time-limit" : 60,
+  "background_layers" : [
+    {
+      "constant": 0.2,
+      "textureID": "bg_no_sky"
+    }, {
+      "constant" : 0.2,
+      "textureID" : "background_library"
+    } ],
+  "music" : "template_level_music",
+  "font" : "retro"
+}

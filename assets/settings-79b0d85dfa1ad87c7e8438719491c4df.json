@@ -1,0 +1,7 @@
+{
+  "jsons" : {
+    "volumes" : "GrowCrazySaveFolder/volumes.json",
+    "bindings" : "GrowCrazySaveFolder/bindings.json",
+    "save" : "GrowCrazySaveFolder/save.json"
+  }
+}

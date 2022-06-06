@@ -1,0 +1,23 @@
+{
+  "textures": {
+    "levelselect": "textures/levelselect.png",
+    "lsexit": "textures/lsexit.png",
+    "lsexithighlight": "textures/lsexithighlight.png",
+    "lsoptions": "textures/lsoptions.png",
+    "lsoptionshighlight": "textures/lsoptionshighlight.png",
+    "lsmap": "textures/lsmap.png",
+    "ls_box": "textures/ls_box.png",
+    "lonebuttonhighlight": "textures/lslevelhighligh.png",
+    "zerostar" : "textures/stars0.png",
+    "onestar" : "textures/stars1.png",
+    "twostar" : "textures/stars2.png",
+    "threestar" : "textures/stars3.png",
+    "right": "textures/button_right.png"
+  },
+  "fonts": {
+    "font": {
+      "file": "fonts/AutourOne-Regular.ttf",
+      "size": 64
+    }
+  }
+}

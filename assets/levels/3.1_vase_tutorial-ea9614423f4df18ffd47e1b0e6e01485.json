@@ -1,0 +1,156 @@
+{
+  "tileheight" : 32,
+  "difficulty" : "noplant",
+  "time-limit" : 30,
+  "music" : "template_level_music",
+  "defaults" : {
+    "volume" : 0.8,
+    "density" : 0.0,
+    "restitution" : 0.1,
+    "gravity" : -50.7,
+    "friction" : 0.4
+  },
+  "isTutorial" : true,
+  "next_level" : "first",
+  "tutorialType" : "breakable",
+  "objects" : [ {
+    "orientation" : 0,
+    "name" : "184",
+    "textureID" : "ladder",
+    "position" : [ 21.0, 7.0 ],
+    "type" : "ladder",
+    "dimension" : [ 2.406, 11.781 ],
+    "matchID" : -1
+  }, {
+    "orientation" : 0,
+    "name" : "203",
+    "textureID" : "shelf",
+    "position" : [ 13.0, 11.0 ],
+    "type" : "shelf",
+    "dimension" : [ 1.938, 0.594 ],
+    "matchID" : 4
+  }, {
+    "orientation" : 0,
+    "name" : "209",
+    "textureID" : "shelf",
+    "position" : [ 19.0, 11.0 ],
+    "type" : "shelf",
+    "dimension" : [ 1.938, 0.594 ],
+    "matchID" : 4
+  }, {
+    "orientation" : 0,
+    "name" : "214",
+    "textureID" : "shelf",
+    "position" : [ 4.0, 2.0 ],
+    "type" : "shelf",
+    "dimension" : [ 1.938, 0.594 ],
+    "matchID" : 4
+  }, {
+    "orientation" : 0,
+    "name" : "216",
+    "textureID" : "shelf",
+    "position" : [ 7.0, 5.0 ],
+    "type" : "shelf",
+    "dimension" : [ 1.938, 0.594 ],
+    "matchID" : 4
+  }, {
+    "orientation" : 0,
+    "name" : "221",
+    "textureID" : "shelf",
+    "position" : [ 10.0, 8.0 ],
+    "type" : "shelf",
+    "dimension" : [ 1.938, 0.594 ],
+    "matchID" : 4
+  }, {
+    "orientation" : 0,
+    "density" : 3.4,
+    "shrink" : [ 0.4, 0.2 ],
+    "dash_force" : 250.0,
+    "maxspeed" : 10.0,
+    "speed_cool" : 50.0,
+    "shot_cool" : 2.0,
+    "cutter" : {
+      "body_anchor_scale" : [ -0.3, -0.1 ],
+      "shrink" : 1,
+      "cutter_anchor_scale" : [ -0.4, 0 ],
+      "range" : 1
+    },
+    "textureID" : "dude",
+    "damping" : 240.0,
+    "type" : "player",
+    "jump_force" : 120.5,
+    "dash_cool" : 50.0,
+    "friction" : 0.15,
+    "air_control" : 0.8,
+    "jump_cool" : 0.0,
+    "jumpTex" : "jump",
+    "name" : "222",
+    "holdTex" : "holdstatic",
+    "force" : 250.0,
+    "position" : [ 19.167, 1.833 ],
+    "dimension" : [ 1.2, 1.7 ],
+    "matchID" : -1
+  }, {
+    "orientation" : 0,
+    "outlineTextureID" : "vase_outline",
+    "name" : "273",
+    "position" : [ 13.0, 12.0 ],
+    "textureID" : "vase",
+    "type" : "artifact",
+    "dimension" : [ 0.812, 1.281 ],
+    "isBreakable" : 1,
+    "matchID" : 2
+  }, {
+    "orientation" : 0,
+    "outlineTextureID" : "vase_outline",
+    "name" : "276",
+    "position" : [ 19.0, 12.0 ],
+    "textureID" : "vase",
+    "type" : "artifact",
+    "dimension" : [ 0.812, 1.281 ],
+    "isBreakable" : 1,
+    "matchID" : 2,
+    "broken": true
+  }, {
+    "orientation" : 0,
+    "name" : "277",
+    "textureID" : [ "branch", "junction", "bud", "leaves" ],
+    "position" : [ 11.0, 2.7 ],
+    "type" : "plant",
+    "juice" : 15,
+    "dimension" : [ 0.281, 1.719 ],
+    "matchID" : -1,
+    "pot_type": "ground"
+  }, {
+    "orientation" : 0,
+    "outlineTextureID" : "vase_outline",
+    "name" : "281",
+    "position" : [ 4.0, 3.0 ],
+    "textureID" : "vase",
+    "type" : "artifact",
+    "dimension" : [ 0.812, 1.281 ],
+    "isBreakable" : 1,
+    "matchID" : 2
+  }, {
+    "orientation" : 1,
+    "name" : "282",
+    "textureID" : [ "branch", "junction", "bud", "leaves" ],
+    "position" : [ 10.0, 17.5 ],
+    "type" : "plant",
+    "juice" : 15,
+    "dimension" : [ 0.281, 1.719 ],
+    "matchID" : -1
+  } ],
+  "background_layers" : [ {
+    "constant" : 0.2,
+    "textureID" : "bg_ground_only"
+  }, {
+    "constant" : 0.2,
+    "textureID" : "background_lounge"
+  }, {
+    "constant" : 0.2,
+    "textureID" : "tutorial_breakable"
+  } ],
+  "tilewidth" : 32,
+  "font" : "retro"
+}

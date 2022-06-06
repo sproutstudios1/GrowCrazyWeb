@@ -1,0 +1,17 @@
+{
+  "textures": {
+    "volumeUp": "textures/options_radio_btn_right.png",
+    "volumeDown": "textures/options_radio_btn_left.png",
+    "background": "textures/options_bg.png",
+    "radioGauge": "textures/options_radio_line.png",
+    "tools": "textures/lsoptions.png",
+    "squareBtn": "textures/options_square_btn.png",
+    "mouse": "textures/options_mouse.png"
+  },
+  "fonts": {
+    "font": {
+      "file": "fonts/AutourOne-Regular.ttf",
+      "size": 64
+    }
+  }
+}

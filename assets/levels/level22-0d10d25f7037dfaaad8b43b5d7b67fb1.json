@@ -1,0 +1,174 @@
+{
+  "tileheight" : 32,
+  "difficulty" : "medium",
+  "time-limit" : 60,
+  "music" : "template_level_music",
+  "defaults" : {
+    "volume" : 0.8,
+    "density" : 0.0,
+    "restitution" : 0.1,
+    "gravity" : -50.7,
+    "friction" : 0.4
+  },
+  "next_level" : "first",
+  "objects" : [ {
+    "orientation" : 0,
+    "name" : "157",
+    "textureID" : "ladder",
+    "position" : [ 15.975, 5.915 ],
+    "type" : "ladder",
+    "dimension" : [ 2.406, 11.781 ],
+    "matchID" : -1
+  }, {
+    "orientation" : 0,
+    "name" : "215",
+    "textureID" : "shelf",
+    "position" : [ 10.98, 12.727 ],
+    "type" : "shelf",
+    "dimension" : [ 1.938, 0.594 ],
+    "matchID" : 5
+  }, {
+    "orientation" : 0,
+    "name" : "216",
+    "textureID" : "shelf",
+    "position" : [ 4.489, 12.71 ],
+    "type" : "shelf",
+    "dimension" : [ 1.938, 0.594 ],
+    "matchID" : 4
+  }, {
+    "orientation" : 0,
+    "name" : "217",
+    "textureID" : "shelf",
+    "position" : [ 26.93, 12.679 ],
+    "type" : "shelf",
+    "dimension" : [ 1.938, 0.594 ],
+    "matchID" : 7
+  }, {
+    "orientation" : 0,
+    "name" : "218",
+    "textureID" : "shelf",
+    "position" : [ 21.405, 12.685 ],
+    "type" : "shelf",
+    "dimension" : [ 1.938, 0.594 ],
+    "matchID" : 6
+  }, {
+    "orientation" : 0,
+    "outlineTextureID" : "vase_outline",
+    "name" : "219",
+    "position" : [ 21.413, 13.703 ],
+    "textureID" : "vase",
+    "type" : "artifact",
+    "dimension" : [ 0.812, 1.281 ],
+    "isBreakable" : 1,
+    "matchID" : 6
+  }, {
+    "orientation" : 0,
+    "outlineTextureID" : "vase_outline",
+    "name" : "221",
+    "position" : [ 11.041, 13.657 ],
+    "textureID" : "vase",
+    "type" : "artifact",
+    "dimension" : [ 0.812, 1.281 ],
+    "isBreakable" : 1,
+    "matchID" : 5
+  }, {
+    "orientation" : 0,
+    "name" : "223",
+    "textureID" : "shelf",
+    "position" : [ 29.029, 10.072 ],
+    "type" : "shelf",
+    "dimension" : [ 1.938, 0.594 ],
+    "matchID" : 4
+  }, {
+    "orientation" : 0,
+    "name" : "224",
+    "textureID" : "shelf",
+    "position" : [ 25.016, 10.013 ],
+    "type" : "shelf",
+    "dimension" : [ 1.938, 0.594 ],
+    "matchID" : 4
+  }, {
+    "orientation" : 0,
+    "name" : "225",
+    "textureID" : "shelf",
+    "position" : [ 2.546, 9.997 ],
+    "type" : "shelf",
+    "dimension" : [ 1.938, 0.594 ],
+    "matchID" : 4
+  }, {
+    "orientation" : 0,
+    "name" : "226",
+    "textureID" : "shelf",
+    "position" : [ 6.531, 9.981 ],
+    "type" : "shelf",
+    "dimension" : [ 1.938, 0.594 ],
+    "matchID" : 4
+  }, {
+    "orientation" : 0,
+    "outlineTextureID" : "painting_outline_1",
+    "name" : "227",
+    "position" : [ 26.956, 13.784 ],
+    "textureID" : "crate02",
+    "type" : "artifact",
+    "dimension" : [ 1.25, 1.25 ],
+    "isBreakable" : 0,
+    "matchID" : 7
+  }, {
+    "orientation" : 0,
+    "outlineTextureID" : "painting_outline_1",
+    "name" : "228",
+    "position" : [ 4.498, 13.703 ],
+    "textureID" : "crate02",
+    "type" : "artifact",
+    "dimension" : [ 1.25, 1.25 ],
+    "isBreakable" : 0,
+    "matchID" : 4
+  }, {
+    "orientation" : 1,
+    "name" : "140",
+    "textureID" : [ "branch", "junction", "bud", "leaves" ],
+    "position" : [ 16.11, 17.141 ],
+    "type" : "plant",
+    "juice" : 23,
+    "dimension" : [ 0.281, 1.719 ],
+    "matchID" : -1
+  }, {
+    "orientation" : 0,
+    "density" : 3.4,
+    "shrink" : [ 0.4, 0.2 ],
+    "dash_force" : 250.0,
+    "maxspeed" : 10.0,
+    "speed_cool" : 50.0,
+    "shot_cool" : 2.0,
+    "cutter" : {
+      "body_anchor_scale" : [ -0.3, -0.1 ],
+      "shrink" : 1,
+      "cutter_anchor_scale" : [ -0.4, 0 ],
+      "range" : 1
+    },
+    "textureID" : "dude",
+    "damping" : 240.0,
+    "type" : "player",
+    "jump_force" : 120.5,
+    "dash_cool" : 50.0,
+    "friction" : 0.15,
+    "air_control" : 0.8,
+    "jump_cool" : 0.0,
+    "jumpTex" : "jump",
+    "name" : "58",
+    "holdTex" : "holdstatic",
+    "force" : 250.0,
+    "position" : [ 6.429, 2.447 ],
+    "dimension" : [ 1.2, 1.7 ],
+    "matchID" : -1
+  } ],
+  "background_layers" : [ {
+    "constant" : 0.2,
+    "textureID" : "bg_no_sky"
+  }, {
+    "constant" : 0.2,
+    "textureID" : "background"
+  } ],
+  "tilewidth" : 32,
+  "font" : "retro"
+}

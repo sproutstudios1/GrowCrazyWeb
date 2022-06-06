@@ -1,0 +1,47 @@
+{
+  "textures": {
+    "loading": "textures/loading.png",
+    "background": "textures/mainmenu1.png",
+    "backgroundlit": "textures/mainmenu1lit.png",
+    "vineNormal": "textures/vines_normal.png",
+    "vineCreep": "textures/vines_creep.png",
+    "title": "textures/mainmenutitle.png",
+    "play": "textures/menuplay1.png",
+    "playhighlight": "textures/menuplayhighlight1.png",
+    "playclicked": "textures/menuplayclicked1.png",
+    "arrow": "textures/button_right.png",
+    "exithighlight": "textures/menuexithighlight1.png",
+    "gears": "textures/mainmenu_gears.png",
+    "optionshighlight": "textures/menuoptionshighlight1.png",
+    "char": "textures/menuchar1.png",
+    "player": "textures/loadchar.png",
+    "logotop": "filmstrips/logotop.png",
+    "logomid": "filmstrips/logomid.png",
+    "logobot": "filmstrips/logobot.png",
+    "lucy": "textures/pixel_lucy.png",
+    "progress": {
+      "file":      "textures/progressbar.png",
+      "atlas":     {
+        "background" : [16,   0, 216, 30],
+        "backleft"   : [0,    0,  15, 30],
+        "backright"  : [384,  0, 400, 30],
+        "foreground" : [16,  40, 216, 70],
+        "foreleft"   : [0,   40,  16, 70],
+        "foreright"  : [384, 40, 400, 70]
+      }
+    }
+  },
+  "sounds" : {
+    "logoSound" : "sounds/logo.ogg",
+    "mainTheme" : "sounds/maintheme.ogg"
+  },
+  "fonts": {
+    "font": {
+      "file": "fonts/AutourOne-Regular.ttf",
+      "size": 64
+    }
+  },
+  "jsons": {
+    "flavor" : "flavor.json"
+  }
+}

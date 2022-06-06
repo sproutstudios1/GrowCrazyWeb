@@ -1,0 +1,191 @@
+{
+  "defaults": {
+    "gravity": -50.7,
+    "friction": 0.4,
+    "density": 0.0,
+    "restitution": 0.1,
+    "volume": 0.8
+  },
+  "objects": [
+    {
+      "name": "ladder",
+      "type": "ladder",
+      "position": [
+        25.0,
+        7.0
+      ],
+      "dimension": [
+        2.62,
+        12.35
+      ],
+      "textureID": "ladder",
+      "matchID": -1
+    },
+    {
+      "name": "obj1",
+      "type": "artifact",
+      "position": [
+        25.0,
+        7.0
+      ],
+      "dimension": [
+        1.04,
+        1.3325
+      ],
+      "textureID": "vase",
+      "matchID": 1,
+      "outlineTextureID": "vase_outline",
+      "isBreakable": 1
+    },
+    {
+      "name": "shelf1",
+      "type": "shelf",
+      "position": [
+        25.0,
+        5.0
+      ],
+      "dimension": [
+        2.015,
+        0.6175
+      ],
+      "textureID": "shelf",
+      "matchID": 1
+    },
+    {
+      "name": "obj3",
+      "type": "artifact",
+      "position": [
+        10.0,
+        7.0
+      ],
+      "dimension": [
+        1.3,
+        2.34
+      ],
+      "textureID": "bust",
+      "matchID": 3,
+      "outlineTextureID": "bust_outline_small",
+      "isBreakable": 0
+    },
+    {
+      "name": "shelf6",
+      "type": "shelf",
+      "position": [
+        10.0,
+        5.0
+      ],
+      "dimension": [
+        2.015,
+        0.6175
+      ],
+      "textureID": "shelf",
+      "matchID": 3
+    },
+    {
+      "name": "obj4",
+      "type": "artifact",
+      "position": [
+        20.0,
+        10.0
+      ],
+      "dimension": [
+        1.3,
+        1.3
+      ],
+      "textureID": "frame2",
+      "matchID": 4,
+      "outlineTextureID": "painting_outline_2",
+      "isBreakable": 0
+    },
+    {
+      "name": "shelf4",
+      "type": "shelf",
+      "position": [
+        20.0,
+        8.0
+      ],
+      "dimension": [
+        2.015,
+        0.6175
+      ],
+      "textureID": "shelf",
+      "matchID": 4
+    },
+    {
+      "name": "plant1",
+      "type": "plant",
+      "position": [
+        16.0,
+        18.0
+      ],
+      "dimension": [
+        0.2925,
+        1.7875
+      ],
+      "textureID": [
+        "branch",
+        "junction",
+        "bud",
+        "leaves"
+      ],
+      "matchID": -1,
+      "orientation": 1
+    },
+    {
+      "name": "dude",
+      "type": "player",
+      "textureID": "dude",
+      "jumpTex": "jump",
+      "holdTex": "holdstatic",
+      "position": [
+        25,
+        14.0
+      ],
+      "dimension": [
+        1.2,
+        1.7
+      ],
+      "shrink": [
+        0.4,
+        0.2
+      ],
+      "force": 250.0,
+      "damping": 240.0,
+      "density": 4.4,
+      "friction": 0.15,
+      "maxspeed": 10.0,
+      "jump_force": 120.5,
+      "jump_cool": 0,
+      "dash_force": 250,
+      "dash_cool": 50,
+      "speed_cool": 2,
+      "air_control": 1.5,
+      "shot_cool": 40,
+      "cutter": {
+        "range": 1,
+        "shrink": 1,
+        "cutter_anchor_scale": [
+          -0.4,
+          0
+        ],
+        "body_anchor_scale": [
+          -0.3,
+          -0.1
+        ]
+      }
+    }
+  ],
+
+  "time-limit": 120,
+
+  "background_layers" : [
+    {
+      "constant" : 0.2,
+      "textureID" : "bg_no_sky"
+    },{
+    "constant" : 0.2,
+    "textureID" : "background_library"
+  } ],
+  "music": "template_level_music",
+  "font": "retro"
+}

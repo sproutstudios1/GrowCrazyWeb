@@ -1,0 +1,115 @@
+{
+  "tileheight" : 32,
+  "difficulty" : "noplant",
+  "time-limit" : 45,
+  "music" : "template_level_music",
+  "defaults" : {
+    "volume" : 0.8,
+    "density" : 0.0,
+    "restitution" : 0.1,
+    "gravity" : -50.7,
+    "friction" : 0.4
+  },
+  "isTutorial" : true,
+  "next_level" : "first",
+  "tutorialType" : "owl",
+  "objects" : [ {
+    "orientation" : 0,
+    "name" : "228",
+    "textureID" : "shelf",
+    "position" : [ 17.833, 5.208 ],
+    "type" : "shelf",
+    "dimension" : [ 2.0, 0.562 ],
+    "matchID" : 4
+  }, {
+    "orientation" : 0,
+    "outlineTextureID" : "owl_outline",
+    "name" : "225",
+    "position" : [ 7.333, 13.583 ],
+    "textureID" : "cage",
+    "type" : "artifact:birdcage",
+    "dimension" : [ 1.25, 1.25 ],
+    "isBreakable" : 1,
+    "matchID" : 2
+  }, {
+    "orientation" : 0,
+    "name" : "229",
+    "textureID" : "shelf",
+    "position" : [ 7.458, 12.292 ],
+    "type" : "shelf",
+    "dimension" : [ 2.0, 0.562 ],
+    "matchID" : 4
+  }, {
+    "orientation" : 0,
+    "name" : "231",
+    "textureID" : "shelf",
+    "position" : [ 12.792, 3.333 ],
+    "type" : "shelf",
+    "dimension" : [ 2.0, 0.562 ],
+    "matchID" : 4
+  }, {
+    "orientation" : 1,
+    "name" : "220",
+    "textureID" : [ "branch", "junction", "bud", "leaves" ],
+    "position" : [ 1.641, 17.193 ],
+    "type" : "plant",
+    "juice" : 23,
+    "dimension" : [ 0.281, 1.719 ],
+    "matchID" : -1,
+    "pot_type" : ""
+  }, {
+    "orientation" : 0,
+    "name" : "230",
+    "textureID" : [ "branch", "junction", "bud", "leaves" ],
+    "position" : [ 1.984, 1.526 ],
+    "type" : "plant",
+    "juice" : 23,
+    "dimension" : [ 0.281, 1.719 ],
+    "matchID" : -1,
+    "pot_type" : "ground"
+  }, {
+    "orientation" : 0,
+    "density" : 3.4,
+    "shrink" : [ 0.4, 0.2 ],
+    "dash_force" : 250.0,
+    "maxspeed" : 10.0,
+    "speed_cool" : 50.0,
+    "shot_cool" : 2.0,
+    "cutter" : {
+      "body_anchor_scale" : [ -0.3, -0.1 ],
+      "shrink" : 1,
+      "cutter_anchor_scale" : [ -0.4, 0 ],
+      "range" : 1
+    },
+    "textureID" : "dude",
+    "damping" : 240.0,
+    "type" : "player",
+    "jump_force" : 120.5,
+    "dash_cool" : 50.0,
+    "friction" : 0.15,
+    "air_control" : 0.8,
+    "jump_cool" : 0.0,
+    "jumpTex" : "jump",
+    "name" : "222",
+    "holdTex" : "holdstatic",
+    "force" : 250.0,
+    "position" : [ 17.0, 2.083 ],
+    "dimension" : [ 1.2, 1.7 ],
+    "matchID" : -1
+  } ],
+  "background_layers" : [ {
+    "constant" : 0.2,
+    "textureID" : "bg_ground_only"
+  }, {
+    "constant" : 0.2,
+    "textureID" : "background_lounge"
+  }, {
+    "constant" : 0.2,
+    "textureID" : "tutorial_owl"
+  }, {
+    "constant" : 0.2,
+    "textureID" : "tutorial_owl_text"
+  } ],
+  "tilewidth" : 32,
+  "font" : "retro"
+}

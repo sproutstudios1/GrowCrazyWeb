@@ -1,0 +1,94 @@
+{
+  "tileheight" : 32,
+  "time-limit" : 60,
+  "difficulty" : "easy",
+  "music" : "template_level_music",
+  "defaults" : {
+    "volume" : 0.8,
+    "density" : 0.0,
+    "restitution" : 0.1,
+    "gravity" : -50.7,
+    "friction" : 0.4
+  },
+  "objects" : [ {
+    "orientation" : 0,
+    "name" : "143",
+    "textureID" : "shelf",
+    "position" : [ 2.938, 3.603 ],
+    "type" : "shelf",
+    "dimension" : [ 1.938, 0.594 ],
+    "matchID" : 4
+  }, {
+    "orientation" : 0,
+    "name" : "147",
+    "textureID" : "shelf",
+    "position" : [ 18.962, 12.715 ],
+    "type" : "shelf",
+    "dimension" : [ 1.938, 0.594 ],
+    "matchID" : 2
+  }, {
+    "orientation" : 0,
+    "name" : "157",
+    "textureID" : "ladder",
+    "position" : [ 19.833, 6.573 ],
+    "type" : "ladder",
+    "dimension" : [ 2.406, 11.01 ],
+    "matchID" : -1
+  }, {
+    "orientation" : 0,
+    "outlineTextureID" : "bust_outline_small",
+    "name" : "166",
+    "position" : [ 18.914, 14.152 ],
+    "textureID" : "bust",
+    "type" : "artifact",
+    "dimension" : [ 1.25, 2.25 ],
+    "isBreakable" : 0,
+    "matchID" : 2
+  }, {
+    "orientation" : 1,
+    "name" : "165",
+    "textureID" : [ "branch", "junction", "bud", "leaves" ],
+    "position" : [ 13.144, 17.144 ],
+    "type" : "plant",
+    "dimension" : [ 0.281, 1.719 ],
+    "matchID" : -1
+  }, {
+    "orientation" : 0,
+    "density" : 3.4,
+    "shrink" : [ 0.4, 0.2 ],
+    "dash_force" : 250.0,
+    "maxspeed" : 10.0,
+    "speed_cool" : 50.0,
+    "shot_cool" : 2.0,
+    "cutter" : {
+      "body_anchor_scale" : [ -0.3, -0.1 ],
+      "shrink" : 1,
+      "cutter_anchor_scale" : [ -0.4, 0 ],
+      "range" : 1
+    },
+    "textureID" : "dude",
+    "damping" : 240.0,
+    "type" : "player",
+    "jump_force" : 120.5,
+    "dash_cool" : 50.0,
+    "friction" : 0.15,
+    "air_control" : 0.8,
+    "jump_cool" : 0.0,
+    "jumpTex" : "jump",
+    "name" : "58",
+    "holdTex" : "holdstatic",
+    "force" : 250.0,
+    "position" : [ 9.417, 2.362 ],
+    "dimension" : [ 1.2, 1.7 ],
+    "matchID" : -1
+  } ],
+  "background_layers" : [ {
+    "constant" : 0.2,
+    "textureID" : "bg_no_sky"
+  }, {
+    "constant" : 0.2,
+    "textureID" : "background"
+  } ],
+  "tilewidth" : 32,
+  "font" : "retro"
+}

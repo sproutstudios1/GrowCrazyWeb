@@ -1,0 +1,12 @@
+{
+  "textures": {
+    "credits": "textures/credits.png",
+    "lucy": "textures/pixel_lucy.png"
+  },
+  "fonts": {
+    "font": {
+      "file": "fonts/AutourOne-Regular.ttf",
+      "size": 64
+    }
+  }
+}
